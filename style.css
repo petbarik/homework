@@ -1,8 +1,13 @@
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('Comfortaa-Medium.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .test {
-  font-family: "Comfortaa";
+  font-family: "Comfortaa", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
