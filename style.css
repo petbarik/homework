@@ -1,8 +1,8 @@
 .title {
-    font-family: "Varela Round";
-    font-weight: 400;
-    font-style: normal;
-    background-color: aqua;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
