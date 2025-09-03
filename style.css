@@ -1,6 +1,101 @@
-.body {
-  font-family: "Comfortaa", cursive;
-  font-optical-sizing: auto;
+/* Comfortaa font */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+  font-family: 'Comfortaa', cursive;
+  background-color: #f0f4f8; /* Light blue-ish background */
+  color: #2c3e50; /* Dark blue-gray text */
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* Container for page content */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 2px solid #3498db; /* Blue border */
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(52, 152, 219, 0.2);
+}
+
+/* Headers: neat and friendly */
+h1, h2, h3 {
+  color: #2980b9;
+  margin-bottom: 12px;
   font-weight: 700;
-  font-style: normal;
+  border-bottom: 2px solid #2980b9;
+  padding-bottom: 6px;
+  letter-spacing: 1.2px;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+/* Links: subtle and clear */
+a {
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Buttons: simple and approachable */
+button {
+  font-family: 'Comfortaa', cursive;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 18px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1c5980;
+}
+
+/* Lists */
+ul, ol {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+/* Inputs and form elements */
+input[type="text"],
+input[type="email"],
+textarea {
+  font-family: 'Comfortaa', cursive;
+  border: 1.5px solid #3498db;
+  border-radius: 5px;
+  padding: 8px 12px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #2980b9;
+  outline: none;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  text-align: center;
 }
